@@ -30,6 +30,7 @@ My Arch Linux + i3wm with bumblebee-status configs
   * xev
   * stow
   * woeusb (woeusbgui)
+  * awesome-terminal-fonts
 
 ## Screenshots
 ![Screenshot](https://i.imgur.com/RMNVhXd.png)
