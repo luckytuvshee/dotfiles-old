@@ -19,6 +19,10 @@ My Arch Linux + i3wm with bumblebee-status configs
   * cmus
   * escrotum [aur]
   * xzoom
+  * ttf-font-awesome
+  * awesome-terminal-fonts
+  * Monaco font
+  * yay
   
 ## Not required but these are cool 
 
@@ -30,7 +34,6 @@ My Arch Linux + i3wm with bumblebee-status configs
   * xev
   * stow
   * woeusb (woeusbgui)
-  * awesome-terminal-fonts
 
 ## Screenshots
 ![Screenshot](https://i.imgur.com/RMNVhXd.png)
