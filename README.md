@@ -9,7 +9,6 @@ My Arch Linux + i3wm with bumblebee-status configs
   * compton
   * bumblebee-status
   * i3lock
-  * i3gaps
   * i3wm
   * ranger
   * playerctl
@@ -23,12 +22,12 @@ My Arch Linux + i3wm with bumblebee-status configs
   * awesome-terminal-fonts
   * Monaco font
   * yay
+  * zsh
   
 ## Not required but these are cool 
 
   * zathunar and zathunar-pdf-poppler
   * lxappearance
-  * zsh
   * youtube-dl
   * xset
   * xev
