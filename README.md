@@ -23,6 +23,7 @@ My Arch Linux + i3wm with bumblebee-status configs
   * Monaco font
   * yay
   * zsh
+  * urxvt-resize-font-git [aur]
   
 ## Not required but these are cool 
 
