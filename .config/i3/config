@@ -11,7 +11,7 @@ font pango:Monaco 10
 # auto start
 exec --no-startup-id xrdb ~/.Xresources
 exec --no-startup-id setxkbmap -model pc104 -layout us,mn -option grp:alt_shift_toggle
-exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/Pictures/snowy_mountain.jpeg
+exec_always --no-startup-id feh --bg-scale /home/luckytuvshee/.config/mountain_wallpaper.jpg
 exec_always --no-startup-id compton -b
 
 
@@ -57,7 +57,7 @@ hide_edge_borders both
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec kitty 
 
 
 # kill focused window
@@ -74,14 +74,14 @@ bindsym Mod1+F4 kill
 bindsym $mod+Shift+d exec --no-startup-id i3-dmenu-desktop --dmenu="dmenu -i -fn 'monaco:size=8'"
 #bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'monaco 8'
 
-bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -font 'monaco 12' -theme one-dark
+bindsym $mod+d exec --no-startup-id rofi -lines 12 -padding 18 -width 40 -location 0 -show drun -font "monaco 6" -theme ~/.config/one-dark
 
 
 # start ranger file manager
-bindsym $mod+Shift+e exec --no-startup-id urxvt -e ranger -r ~/.zshrc
+bindsym $mod+Shift+e exec --no-startup-id kitty -e ranger -r ~/.zshrc
 
 # start cmus music player
-bindsym $mod+Shift+s exec --no-startup-id urxvt -e cmus ~/.config/cmus
+bindsym $mod+Shift+s exec --no-startup-id kitty -e cmus ~/.config/cmus
 
 ## music
 # toggle music for cmus
@@ -97,7 +97,7 @@ bindsym F7 exec --no-startup-id playerctl -p cmus next
 
 
 # lock screen
-bindsym Control+Mod1+l exec i3lock -i ~/Pictures/wallhaven.png
+bindsym Control+Mod1+l exec i3lock -i ~/.config/lockscreen_wallpaper.png
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -223,14 +223,6 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-for_window [class=".*"] border normal
-
-# i3-gaps stuff
-gaps inner 0 
-gaps outer 0
-smart_borders on
-new_window none
 
 # colour of border, background, text, indicator, and child_border
 client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8

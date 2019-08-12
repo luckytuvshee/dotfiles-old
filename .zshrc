@@ -1,8 +1,7 @@
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 
-export EDITOR=/usr/bin/vim
-export RANGER_LOAD_DEFAULT_RC=false
 
 if [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
@@ -18,6 +17,11 @@ function vid()
 	youtube-dl $(xclip -o)
 }
 
+alias edit='subl3'
+
+
+# Default Configs
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -28,7 +32,9 @@ export ZSH="/home/luckytuvshee/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="cloud"
+
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
