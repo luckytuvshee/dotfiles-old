@@ -5,15 +5,16 @@ My Arch Linux + i3wm with bumblebee-status configs
 
 ## Required packages
 
-  * feh
-  * compton
+  * i3wm
   * bumblebee-status
   * i3lock
-  * i3wm
+  * feh
+  * kitty [newly added]
+  * compton
   * ranger
   * playerctl
-  * rxvt-unicode
-  * urxvt-perls
+  * rxvt-unicode [removed]
+  * urxvt-perls [removed]
   * dmenu
   * rofi
   * cmus
@@ -21,14 +22,15 @@ My Arch Linux + i3wm with bumblebee-status configs
   * xzoom
   * ttf-font-awesome
   * awesome-terminal-fonts
-  * Monaco font
   * yay
   * zsh
-  * urxvt-resize-font-git [aur]
+  * urxvt-resize-font-git [aur] [removed]
+  * xclip
   
 ## Not required but these are cool 
 
   * zathunar and zathunar-pdf-poppler
+  * monaco font
   * lxappearance
   * youtube-dl
   * xset
