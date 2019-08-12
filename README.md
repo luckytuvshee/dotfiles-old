@@ -12,7 +12,8 @@ My Arch Linux + i3wm with bumblebee-status configs
   * i3wm
   * ranger
   * playerctl
-  * urxvt
+  * rxvt-unicode
+  * urxvt-perls
   * dmenu
   * rofi
   * cmus
